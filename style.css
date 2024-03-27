@@ -89,13 +89,13 @@
   }
 
   .input-wrapper .teste {
-    width: 90%;
+    width: 100%;
     
    
   }
   .row{
     display: flex;
-    
+    gap: 40px;
   }
   
   .input-wrapper label,
