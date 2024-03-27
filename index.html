@@ -15,91 +15,123 @@
     <div class="page">
     <header>
     
-            <h1>Crie e compartilhe seu evento.</h1>
-            <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
+            <h1>Venha ser um de nossos clientes!</h1>
+            <p>O primeiro passo, é preencher esse formulário de cadastro.</p>
 </header>
     <form id="my-form">
         <fieldset>
             <div class="fieldset-wrapper">
-                <legend>Informações do Evento</legend>
+                <legend>Dados Cadastrais</legend>
 
                 <div class="input-wrapper">
-                    <label for="event-title">Título do evento <Span>(mínimo 8 caracteres)</Span></label>
+                    <label for="event-title">Nome/Razão Social <Span>(Nome e Sobrenome)</Span></label>
                     <input type="text" id="event-title" required minlength="8"/>
                 </div>
-
                 <div class="input-wrapper">
-                    <label for="event-link">Link do evento <Span>(comece com https://)</Span></label>
-                    <input type="url" id="event-link"/>
+                    <label for="event-title">Nome Fantasia <Span>(Opcional)</Span></label>
+                    <input type="text" id="event-title" required minlength="8"/>
                 </div>
-
                 <div class="input-wrapper">
-                    <label for="event-whatsapp">Whatsapp para contato <Span>(somente números)</Span></label>
-                    <input type="number" id="event-whatsapp"/>
+                    <label for="event-title">CPF/CNPJ </label>
+                    <input type="text" id="event-title" required minlength="8"/>
                 </div>
-
                 <div class="input-wrapper">
-                    <label for="event-info">Informações extras </label>
-                    <textarea id="event-info"></textarea>
-
-                <div class="input-wrapper">
-                    <label for="event-category">Categoria</Span></label>
-                    <select id="event-category">
-                    <option value="live">Ao vivo</option>
-                    <option value="podcast">Podcast</option>
-                    <option value="mentorship">Mentoria</option>
-                    </select>
-                    </div>
+                    <label for="event-title">Inscrição Estadual/RG </label>
+                    <input type="text" id="event-title" required minlength="8"/>
                 </div>
+                <div class="input-wrapper">
+                    <label for="event-title">Endereço </label>
+                    <input type="text" id="event-title" required minlength="8"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="event-title">Número </label>
+                    <input type="text" id="event-title" required minlength="8"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="event-title">Complemento </label>
+                    <input type="text" id="event-title" required minlength="8"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="event-title">Bairro </label>
+                    <input type="text" id="event-title" required minlength="8"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="event-title">Cidade </label>
+                    <input type="text" id="event-title" required minlength="8"/>
+                </div>
+                <div class="input-wrapper">
+                    <label for="event-title">UF </label>
+                    <input type="text" id="event-title" required minlength="8"/>
+                </div>
+                <div class="row">
+                <div class="input-wrapper">
+                    <label for="event-title">CEP </label>
+                    <input class="teste" type="text" id="event-title" required minlength="8"/>
+                </div>
+                <div class="input-wrapper" > 
+                <label for="event-link">Link do evento <Span>()</Span></label>
+                <input class="teste" type="email" id="event-link"/>
+            </div>
+            
+            </div>
+
+                
             </div>
         </fieldset>
-
+        
         <fieldset>
             <div class="fieldset-wrapper">
-                <legend>Privacidade</legend>
-
+                <legend>Informações de Contato</legend>
+                
                 <div class="input-wrapper">
-                    <label for="event-email">E-mail do administrador <Span>(digite um e-mail válido)</Span></label>
+                    <label for="event-email">E-mail de Contato <Span>(digite um e-mail válido)</Span></label>
                     <input type="text" id="event-email" minlength="8" required/>
                 </div>
-
                 <div class="input-wrapper">
-                    <label for="event-password">Senha de acesso para os participantes <Span>(mínimo 8 caracteres)</Span></label>
-                    <input type="password" id="event-password" required minlength="8"/>
+                    <label for="event-whatsapp">Telefone para Contato <Span>(somente números)</Span></label>
+                    <input type="number" id="event-whatsapp"/>
                 </div>
-
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id="event-private"/>
-                    <label for="event-private">Evento privado </label>
-                </div>
-
+                
             </div>
         </fieldset>
-
+        
         <fieldset>
             <div class="fieldset-wrapper">
                 <legend>Dia e hora</legend>
-
+                
                 <div class="col-3">
-
+                    
                     <div class="input-wrapper">
                         <label for="event-date">Data</label>
                         <input type="date" id="event-date"/>
                     </div>
-    
+                    
                     <div class="input-wrapper">
                         <label for="event-start">Das </label>
                         <input type="time" id="event-start"/>
                     </div>
-    
+                    
                     <div class="input-wrapper">
                         <label for="event-end">Até</label>
                         <input type="time" id="event-end"/>
                     </div>
-
-
+                    
+                    
                 </div>
-
+                
+                    <div class="input-wrapper">
+                        <label for="event-info">Informações extras </label>
+                        <textarea id="event-info"></textarea>
+                        
+                        <div class="input-wrapper">
+                            <label for="event-category">Categoria</Span></label>
+                            <select id="event-category">
+                                <option value="live">Ao vivo</option>
+                                <option value="podcast">Podcast</option>
+                                <option value="mentorship">Mentoria</option>
+                            </select>
+                        </div>
+                    </div>
             </div>
         </fieldset>
 
