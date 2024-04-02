@@ -66,6 +66,17 @@
     flex-direction: column;
     gap: 24px;
   }
+
+  .tabelav, th, td {
+  
+    
+   width: 200px;
+
+  }
+  
+  .tabelav{
+    width: 700px;
+  }
   
   fieldset legend {
     font-family: 'Archivo', sans-serif;
@@ -88,16 +99,6 @@
     
   }
 
-  .input-wrapper .teste {
-    width: 100%;
-    
-   
-  }
-  .row{
-    display: flex;
-    gap: 40px;
-  }
-  
   .input-wrapper label,
   .checkbox-wrapper label {
     font-size: 14px;

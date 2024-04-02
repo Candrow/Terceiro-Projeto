@@ -66,12 +66,8 @@
                 <div class="row">
                 <div class="input-wrapper">
                     <label for="event-title">CEP </label>
-                    <input class="teste" type="text" id="event-title" required minlength="8"/>
+                    <input class="teste1" type="text" id="event-title" required minlength="8"/>
                 </div>
-                <div class="input-wrapper" > 
-                <label for="event-link">Link do evento <Span>()</Span></label>
-                <input class="teste" type="email" id="event-link"/>
-            </div>
             
             </div>
 
@@ -97,40 +93,15 @@
         
         <fieldset>
             <div class="fieldset-wrapper">
-                <legend>Dia e hora</legend>
-                
-                <div class="col-3">
+                <legend>Lista de veículos</legend>
+                <table class="tabelav">
                     
+                </table>
+            </div>
+            <div>
                     <div class="input-wrapper">
-                        <label for="event-date">Data</label>
-                        <input type="date" id="event-date"/>
-                    </div>
-                    
-                    <div class="input-wrapper">
-                        <label for="event-start">Das </label>
-                        <input type="time" id="event-start"/>
-                    </div>
-                    
-                    <div class="input-wrapper">
-                        <label for="event-end">Até</label>
-                        <input type="time" id="event-end"/>
-                    </div>
-                    
-                    
-                </div>
-                
-                    <div class="input-wrapper">
-                        <label for="event-info">Informações extras </label>
+                        <label for="event-info">Observações </label>
                         <textarea id="event-info"></textarea>
-                        
-                        <div class="input-wrapper">
-                            <label for="event-category">Categoria</Span></label>
-                            <select id="event-category">
-                                <option value="live">Ao vivo</option>
-                                <option value="podcast">Podcast</option>
-                                <option value="mentorship">Mentoria</option>
-                            </select>
-                        </div>
                     </div>
             </div>
         </fieldset>
