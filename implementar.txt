@@ -1,9 +1,9 @@
 \\ validação de campos
 \\seleção de forma de pagamento (interativo, em caso de seleção de a prazo abrir opções de semanal, quinzenal e mensal)
-\\instruções de quais documentos anexar
+\\instruções de quais documentos anexar (envio por e-mail caso nao consiga)
 \\doumentos para anexar
 \\autorização  (em caso de cadastro a prazo aparecer botão pra download da autorização)
-\\expectativa de consumo mensal (em valor)
-\\Limite de credito desejado (mediante avaliação)
-\\seleção de estado
+\\expectativa de consumo mensal (em valor)#
+\\Limite de credito desejado (mediante avaliação)#
+\\seleção de estado #
 \\
